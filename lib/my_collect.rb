@@ -22,6 +22,7 @@ def my_collect(arr)
   yield arr[index]
   index += 1 
 end
+arr
 end
 my_collect(array) { |name| name.split(" ").first }
 my_collect(collection) { |lang| lang.upcase }
