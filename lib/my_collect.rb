@@ -9,7 +9,6 @@ def my_collect(arr)
 end
 new 
 end
-
 my_collect(array) { |name| name.split(" ").first }
 my_collect(collection) { |lang| lang.upcase }
 
